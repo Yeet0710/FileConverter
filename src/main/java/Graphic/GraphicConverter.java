@@ -59,10 +59,10 @@ public class GraphicConverter {
             content.close();
 
             // 5. PDF speichern
-            document.save("output.pdf");
+            document.save("new.pdf");
             document.close();
 
-            System.out.println("Export abgeschlossen: output.pdf");
+            System.out.println("Export abgeschlossen: new.pdf");
         } else {
             image = new BufferedImage(
                     src.getWidth(), src.getHeight(),
